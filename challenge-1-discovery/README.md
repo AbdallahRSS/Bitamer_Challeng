@@ -13,7 +13,7 @@ The following tools were used:
 
   ## 3. Initial Results with Amass
 
-![Alt text for screen readers]()
+![Alt text for screen readers](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/8ada053477d1d9a3978c5066643ddfb3d433b529/challenge-1-discovery/screenshots/Screenshot%202025-08-22%20075556.png)
 
 
   ### Findings
