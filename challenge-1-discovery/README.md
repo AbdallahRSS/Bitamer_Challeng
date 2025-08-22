@@ -17,7 +17,7 @@ The following tools were used:
 
 
   ### Findings
-  Here is the raw Amass output stored in [`results/amass.txt`](results/amass.txt).
+  Here is the raw Amass output stored in [`results/amass.txt`](scanefiles/amass.txt).
 Running `amass` against `bitamer.com` produced the following:
 - **NS records**:  
   - `journey.ns.cloudflare.com`  
