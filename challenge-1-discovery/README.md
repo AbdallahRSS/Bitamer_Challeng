@@ -13,6 +13,9 @@ The following tools were used:
 
   ## 3. Initial Results with Amass
 
+![Alt text for screen readers]()
+
+
   ### Findings
 Running `amass` against `bitamer.com` produced the following:
 - **NS records**:  
