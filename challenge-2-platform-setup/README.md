@@ -183,9 +183,20 @@ helm install pg bitnami/postgresql -n data \
 
 kubectl -n data get pods,svc
 ```
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9de0ff128568c17217a058e428ddcef73acc8757/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20061301.png)
 
+## Run kube-bench
+```bash
+# Download kube-bench v0.9.0 .deb package
+curl -L https://github.com/aquasecurity/kube-bench/releases/download/v0.9.0/kube-bench_0.9.0_linux_amd64.deb -o kube-bench_0.9.0_linux_amd64.deb
 
-![]()
+# Install it with apt
+sudo apt install ./kube-bench_0.9.0_linux_amd64.deb -f
+
+# Run kube-bench
+kube-bench
+```
+
 ![]()
 ![]()
 ![]()
