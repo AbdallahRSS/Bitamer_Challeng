@@ -82,6 +82,13 @@ kubectl get node
 
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/1ac650eb3a8290be7eaad7190cae4bb128c5db7d/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20054032.png)
 
+## 2. Run Lynis for a security audit
+
+```bash
+sudo apt update && sudo apt install -y lynis
+sudo lynis audit system --quick
+```
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/1ac650eb3a8290be7eaad7190cae4bb128c5db7d/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20054032.png)
 
 
 
