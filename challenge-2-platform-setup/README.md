@@ -156,13 +156,17 @@ helm repo update
 helm install openebs openebs/openebs -n openebs --create-namespace
 
 kubectl get sc
-kubectl annotate sc openebs-hostpath storageclass.kubernetes.io/is-default-class="true" --overwrite
+
 
 ```
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/d515c70e6f4ced7c23cec6a2ed6b75d6e9f3ad60/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20060421.png)
 
+Make openebs-hostpath the default StorageClass.
 
+```bash
+kubectl annotate sc openebs-hostpath storageclass.kubernetes.io/is-default-class="true" --overwrite
+```
 
-![]()
 
 ![]()
 ![]()
