@@ -169,7 +169,22 @@ kubectl annotate sc openebs-hostpath storageclass.kubernetes.io/is-default-class
 
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/f71a2745cdb743f4abf8c1c927142e7755d81795/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20060647.png)
 
-### Install
+### Install  PostgreSQL
+
+```bash
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm repo update
+
+kubectl create ns data
+helm install pg bitnami/postgresql -n data \
+  --set global.storageClass=openebs-hostpath \
+  --set auth.postgresPassword="changeme" \
+  --set primary.persistence.size=5Gi
+
+kubectl -n data get pods,svc
+```
+
+
 ![]()
 ![]()
 ![]()
