@@ -88,7 +88,7 @@ kubectl get node
 sudo apt update && sudo apt install -y lynis
 sudo lynis audit system --quick
 ```
-![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/1ac650eb3a8290be7eaad7190cae4bb128c5db7d/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20054032.png)
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/edb7458080c7309a932adc8d6952eb253cc283c2/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055033.png)
 
 
 
