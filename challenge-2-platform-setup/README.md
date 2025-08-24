@@ -145,8 +145,9 @@ kubectl get pods -n kube-system | grep ingress
 ```
 
 
-```
+
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
+```
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
 
