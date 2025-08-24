@@ -3,13 +3,13 @@
 This project demonstrates the setup and hardening of a **single-node RKE2 cluster** on Ubuntu.  
 The tasks included:
 
-- 🔹 **Cluster Setup:** Installed and configured RKE2 with kubectl access.  
-- 🔹 **System Audit (Lynis):** Ran a quick audit, identified missing `fail2ban`, `libpam-tmpdir`, and lack of disk encryption.  
-- 🔹 **Core Deployments (Helm):**
+-  **Cluster Setup:** Installed and configured RKE2 with kubectl access.  
+-  **System Audit (Lynis):** Ran a quick audit, identified missing `fail2ban`, `libpam-tmpdir`, and lack of disk encryption.  
+-  **Core Deployments (Helm):**
   - NGINX Ingress Controller  
   - OpenEBS as the default StorageClass  
   - PostgreSQL (Bitnami) bound to OpenEBS PVCs and verified with queries  
-- 🔹 **Security Benchmark (kube-bench):** Ran CIS checks for RKE2.  
+-  **Security Benchmark (kube-bench):** Ran CIS checks for RKE2.  
   - Found missing audit log settings (`--audit-log-path`, `--audit-log-maxage`).  
   - Fixed by updating `/etc/rancher/rke2/config.yaml` with audit logging arguments.  
 
