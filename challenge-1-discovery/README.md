@@ -43,5 +43,24 @@ We used **Subfinder** to discover subdomains of `bitamer.com`.
 subfinder -d bitamer.com -o subfinder.txt
 ```
 
-All discovered subdomains were saved in 
+All discovered subdomains were saved in All [`subfinder.txt`](scanefiles/subfinder.txt).
 
+Conclusion:
+The infrastructure uses name-based virtual hosting: many subdomains mapped to the same IP "194.238.30.42".
+
+##5. Port Scanning (Nmap)
+```
+nmap -p- -sS -T4 -Pn -n -iL subfinder.txt -oN full_ports.txt
+```
+
+Results:
+
+All responsive subdomains resolve to the same IP address: 194.238.30.42.
+
+Open ports:
+
+80/tcp → HTTP (nginx 1.18.0)
+
+443/tcp → HTTPS (nginx 1.18.0)
+
+Some hosts return default Nginx page, others return 404 Not Found or custom pages.
