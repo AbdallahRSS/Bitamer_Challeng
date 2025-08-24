@@ -11,7 +11,12 @@ The tasks included:
   - PostgreSQL (Bitnami) bound to OpenEBS PVCs and verified with queries  
 -  **Security Benchmark (kube-bench):** Ran CIS checks for RKE2.  
   - Found missing audit log settings (`--audit-log-path`, `--audit-log-maxage`).  
-  - Fixed by updating `/etc/rancher/rke2/config.yaml` with audit logging arguments.  
+  - Fixed by updating `/etc/rancher/rke2/config.yaml` with audit logging arguments.
+### Environment
+- **Host platform:** VirtualBox
+- **Guest OS:** Ubuntu
+- **Resources:** 4 GB RAM, 50 GB disk
+- **Cluster type:** RKE2 (single-node)  
 
 Result: A working RKE2 cluster with ingress, dynamic storage, a running PostgreSQL database, and improved security posture after Lynis and kube-bench audits.
 
