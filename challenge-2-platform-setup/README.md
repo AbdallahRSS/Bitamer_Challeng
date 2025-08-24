@@ -119,5 +119,21 @@ needrestart:  Installed (ensures services are restarted after upgrades).
 
 fail2ban:  Not installed (important to protect SSH against brute force).
 
+## Install via Helm : NGINX Ingress Controller, OpenEBS, and PostgreSQL.
+
+### Install Helm
+
+```bash
+# on the server rancher-01
+# add helm
+curl -#L https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+
+# add needed helm charts
+helm repo add rancher-latest https://releases.rancher.com/server-charts/latest --force-update
+helm repo add jetstack https://charts.jetstack.io --force-update
+```
+
+
+
 
 
