@@ -167,8 +167,9 @@ Make openebs-hostpath the default StorageClass.
 kubectl annotate sc openebs-hostpath storageclass.kubernetes.io/is-default-class="true" --overwrite
 ```
 
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/f71a2745cdb743f4abf8c1c927142e7755d81795/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20060647.png)
 
-![]()
+### Install
 ![]()
 ![]()
 ![]()
