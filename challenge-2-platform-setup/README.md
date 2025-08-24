@@ -63,7 +63,7 @@ echo "token: bootstrapAllTheThings" | sudo tee /etc/rancher/rke2/config.yaml
 # start and enable RKE2 server
 sudo systemctl enable --now rke2-server.service
 ```
-![Alt text for screen readers](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/8ada053477d1d9a3978c5066643ddfb3d433b529/challenge-1-discovery/screenshots/Screenshot%202025-08-22%20075556.png)
+![Alt text for screen readers](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/898fcd09f4453b70ef8200b632b17bcb57a8e7e0/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20053915.png)
 
 
 ###Configure kubectl
