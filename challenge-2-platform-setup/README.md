@@ -197,10 +197,10 @@ sudo apt install ./kube-bench_0.9.0_linux_amd64.deb -f
 kube-bench
 ```
 
-![]()
+
 
 ### Audit Logging (kube-bench findings 1.2.16 & 1.2.17)
-![]()
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/8209af88cff257cfad7479128ab0a138e2fd5a08/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20073011.png)
 
 During the security scan with kube-bench, two important audit logging checks failed:
 
