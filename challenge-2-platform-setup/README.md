@@ -206,13 +206,14 @@ During the security scan with kube-bench, two important audit logging checks fai
 
 1.2.16 – --audit-log-path:
 The Kubernetes API server was not configured with an audit log file.
-➡️ This means API requests were not being logged, making it difficult to investigate suspicious activity or meet compliance requirements.
-![]()
+- This means API requests were not being logged, making it difficult to investigate suspicious activity or meet compliance requirements.
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/b328321ba6b942f8ff0b34cb43064b5c4d6947d3/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20074748.png)
 1.2.17 – --audit-log-maxage:
 The API server did not define how long to retain old audit logs.
-➡️ Without this, logs could either grow uncontrollably or be rotated too quickly.
+- Without this, logs could either grow uncontrollably or be rotated too quickly.
 
 ![]()
+
 ![]()
 ![]()
 ![]()
