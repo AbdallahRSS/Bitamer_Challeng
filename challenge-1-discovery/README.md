@@ -36,3 +36,12 @@ Running `amass` against `bitamer.com` produced the following:
 - Scanning Cloudflare IPs only reveals the WAF/reverse proxy, not the real backend servers.  
 - Therefore, Amass results alone are of **low practical value** for this challenge.
 
+##4. Results of Subfinder
+We used **Subfinder** to discover subdomains of `bitamer.com`.
+
+```bash
+subfinder -d bitamer.com -o subfinder.txt
+```
+
+All discovered subdomains were saved in 
+
