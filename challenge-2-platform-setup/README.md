@@ -134,6 +134,17 @@ helm repo add jetstack https://charts.jetstack.io --force-update
 ```
 
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/ced801ad6bcd790e9ea9bbda4610c8a8740e787e/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20054239.png)
+
+### Install NGINX Ingress Controller
+RKE2 comes with **NGINX Ingress Controller pre-installed** in the `kube-system` namespace.  
+This means we do not need to install a separate ingress-nginx via Helm.
+
+Verification:
+```bash
+kubectl get pods -n kube-system | grep ingress
+```
+
+
 ```
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
