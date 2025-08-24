@@ -93,5 +93,31 @@ sudo lynis audit system --quick
 
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
 
+### Key Findings
+
+Warning (DEB-0001): One package test took too long → not critical, but indicates slow execution during the audit.
+
+libpam-tmpdir:  Not installed
+
+Risk: temporary files in /tmp may be shared between users.
+
+Fix: install libpam-tmpdir to isolate user tmp directories.
+
+Disk Encryption:  Not enabled on /, /boot, and snap partitions.
+
+Risk: if the node is compromised physically, data could be read.
+
+Fix: use full-disk encryption (LUKS/dm-crypt) if this is a production system.
+
+Software Checks:
+
+apt-listbugs:  Not installed (warns of severe bugs before updates).
+
+apt-listchanges:  Not installed (shows changelogs before updates).
+
+needrestart:  Installed (ensures services are restarted after upgrades).
+
+fail2ban:  Not installed (important to protect SSH against brute force).
+
 
 
