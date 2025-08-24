@@ -91,7 +91,7 @@ sudo lynis audit system --quick
 ![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/edb7458080c7309a932adc8d6952eb253cc283c2/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055033.png)
 
 
-![]()
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
 
 
 
