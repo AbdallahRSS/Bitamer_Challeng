@@ -32,7 +32,7 @@ sudo apt autoremove -y
 ```
 
 
-###Rocky Linux Instructions
+### Rocky Linux Instructions
 
 ```bash
 # stop the software firewall
@@ -51,7 +51,7 @@ sudo dnf update -y
 sudo dnf clean all
 ```
 
-###On the first node (rke2)
+### On the first node (rke2)
 ```bash
 # install RKE2 server
 curl -sfL https://get.rke2.io | INSTALL_RKE2_TYPE=server sh -
@@ -66,7 +66,7 @@ sudo systemctl enable --now rke2-server.service
 ![Alt text for screen readers](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/898fcd09f4453b70ef8200b632b17bcb57a8e7e0/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20053915.png)
 
 
-###Configure kubectl
+### Configure kubectl
 ```bash
 # symlink kubectl
 sudo ln -s $(find /var/lib/rancher/rke2/data/ -name kubectl) /usr/local/bin/kubectl
