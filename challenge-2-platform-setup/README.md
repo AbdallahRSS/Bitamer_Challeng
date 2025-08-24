@@ -198,6 +198,21 @@ kube-bench
 ```
 
 ![]()
+
+### Audit Logging (kube-bench findings 1.2.16 & 1.2.17)
+![]()
+
+During the security scan with kube-bench, two important audit logging checks failed:
+
+1.2.16 – --audit-log-path:
+The Kubernetes API server was not configured with an audit log file.
+➡️ This means API requests were not being logged, making it difficult to investigate suspicious activity or meet compliance requirements.
+![]()
+1.2.17 – --audit-log-maxage:
+The API server did not define how long to retain old audit logs.
+➡️ Without this, logs could either grow uncontrollably or be rotated too quickly.
+
+![]()
 ![]()
 ![]()
 ![]()
