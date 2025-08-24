@@ -212,7 +212,7 @@ The Kubernetes API server was not configured with an audit log file.
 The API server did not define how long to retain old audit logs.
 - Without this, logs could either grow uncontrollably or be rotated too quickly.
 
-![]()
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/e2c48064268c2086d96dc80153e75d128f684368/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20075521.png)
 
 ![]()
 ![]()
