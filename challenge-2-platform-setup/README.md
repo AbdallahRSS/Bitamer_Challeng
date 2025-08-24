@@ -146,10 +146,30 @@ kubectl get pods -n kube-system | grep ingress
 
 
 
-![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
+![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/4dc367cac4c0dd65edaf16e54cf7642121d24186/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20060217.png)
+
+### Install OpenEBS
+
+```bash
+helm repo add openebs https://openebs.github.io/charts
+helm repo update
+helm install openebs openebs/openebs -n openebs --create-namespace
+
+kubectl get sc
+kubectl annotate sc openebs-hostpath storageclass.kubernetes.io/is-default-class="true" --overwrite
+
 ```
-![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
-![](https://github.com/AbdallahRSS/Bitamer_Challeng/blob/9688768861a26f632b97c49211afec6ad18d2dc4/challenge-2-platform-setup/screenshots/Screenshot%202025-08-24%20055358.png)
+
+
+
+![]()
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
 
 
 
